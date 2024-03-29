@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Tracker</title>
+</head>
+<style>
+    body {
+        background-image: url("https://img.freepik.com/free-photo/cardano-blockchain-platform-collage_23-2150827491.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<body>
+
+    <div id="head">
+        <form>
+            <h1 style="font-size: 35px;">Expense Tracker</h1>
+            <input type="text" id="input1" placeholder="Enter the details" required minlength="1">
+            <input type="text" id="input2" placeholder="Enter the Amount" required minlength="1"><br>
+            <select id="type">
+                <option value="Income">Income</option>
+                <option value="Expense">Expense</option>
+            </select>
+            <input type="button" value="Add" id="Add" onclick="Hello()">
+        </form>
+    </div>
+    <center>
+        <center>
+            <div style="margin-left: 25%;margin-right: 25%;">
+                <div class="ie-container">
+                    <div>
+                        <h4>Income</h4>
+                        <p id="money-plus" class="money plus">+$0.00</p>
+                    </div>
+                    <div>
+                        <h4>Expense</h4>
+                        <p id="money-minus" class="money minus">-$0.00</p>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <div id="box3">
+            <h2>Budget History</h2>
+            <div id="list">
+            </div>
+        </div>
+    </center>
+
+</body>
+<script src="add.js"></script>
+
+</html>

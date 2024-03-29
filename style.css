@@ -1,0 +1,165 @@
+#head {
+  height: 200px;
+  width: 40%;
+  background-color: #6faeda;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 1px;
+  margin-left: 30%;
+  padding-bottom: 80px;
+  border-style: 1px solid;
+  border-radius: 8px;
+}
+
+.sublist-content>a {
+  background-image: url('Trash_Delete Button.jpeg');
+  width: 83px;
+  background-color: #44cf4d;
+  height: 25px;
+  margin-left: 80px;
+}
+
+.sublist-content1>a {
+  background-image: url('Trash_Delete Button.jpeg');
+  width: 83px;
+  background-color: #fd836b;
+  height: 25px;
+  margin-left: 80px;
+}
+
+#input1 {
+  height: 40px;
+  width: 90%;
+  font-size: 25px;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+#input2 {
+  height: 40px;
+  width: 90%;
+  font-size: 25px;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+#input1::placeholder {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+
+#input2::placeholder {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+
+#Add {
+  color: antiquewhite;
+  background-color: rgb(22, 205, 22);
+  border-style: solid;
+  border-radius: 4px;
+  font-size: large;
+  height: fit-content;
+  width: fit-content;
+}
+
+#Add:hover {
+  background-color: orange;
+}
+
+#expense {
+  width: 600px;
+  height: 100px;
+  margin-top: 10px;
+  background-color: #007cd5;
+  border-style: solid;
+  border-radius: 4px;
+  padding-bottom: 20px;
+}
+
+#box3 {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 10px;
+  border-style: solid;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-left: 16.5%;
+  padding-right: 16.5%;
+  padding-bottom: 60px;
+  background-color: aquamarine;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sublist-content {
+  width: 50%;
+  background-color: #44cf4d;
+  margin-bottom: 0.8em;
+  padding: 0.1em 8em;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+.sublist-content1 {
+  width: 50%;
+  background-color: #fd836b;
+  margin-bottom: 0.8em;
+  padding: 0.1em 8em;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+.product {
+  font-size: large;
+  padding-left: 100px;
+  ;
+  color: #2145bc;
+}
+
+.ie-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.ie-container>div {
+  flex: 1;
+  text-align: center;
+}
+
+.ie-container>div {
+  flex: 1;
+  text-align: center;
+}
+
+.ie-container>div:first-of-type {
+  border-right: 1px solid #dedede;
+}
+
+.money {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+.money.plus {
+  color: #2ecc71;
+}
+
+.money.minus {
+  color: #c0392b;
+}
+
+#type {
+  border-radius: 10px;
+  font-size: large;
+}
